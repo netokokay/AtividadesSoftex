@@ -1,0 +1,18 @@
+1.
+Do tipo caracter teremos as variáveis nome e endereco, pois poderão armazenar números(no caso do endereço), caracteres especiais(endereço) e letras(ambos)
+Do tipo inteiro teremos as variáveis rg e cpf, pois são números sem decimais!
+Do tipo real teremos a variável altura que armazenara um número decimal!
+
+2.
+Caracter nome
+inteiro cpf
+inteiro rg
+real altura
+caracter endereco
+
+3.
+nome<- José Almeida da Silva
+cpf<- 12345678900
+rg<- 9517530
+altura<- 1,78
+endereco<- Rua A, 380 – Centro – Recife/PE
