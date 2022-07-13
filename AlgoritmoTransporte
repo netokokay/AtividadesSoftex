@@ -1,0 +1,122 @@
+var resposta: caractere
+
+Escreval ("É terrestre?")
+Leia (resposta)
+
+Se (resposta == sim) entao
+	resposta <- null
+	Escreval ("Cabe apenas uma pessoa?")
+	Leia (Resposta)
+	
+	Se (resposta == sim) entao
+		resposta <- null
+		Escreval ("É pesado?")
+		Leia (resposta)
+		
+		Se (resposta == sim) entao
+			Escreval ("Então, o transporte escolhido foi o TRATOR")
+		senao
+			Escreval ("Então, o transporte escolhido foi a BICICLETA")
+		FimSe
+	senao
+				
+		resposta <- null
+		Escreval ("Usa capacete?")
+		Leia (resposta)
+
+		Se (resposta == sim) entao
+			Escreval ("Então, o transporte escolhido foi a MOTO")
+		senao
+		
+			resposta <- null
+			Escreval ("Usa trilho?")
+			Leia (resposta)
+
+			Se (resposta == sim) entao
+				Escreval ("Então, o transporte escolhido foi o TREM")
+			senao
+			
+				resposta <- null
+				Escreval ("É alto?")
+				Leia (resposta)
+				
+				Se (resposta == sim) entao
+					resposta <- null
+					Escreval ("Usa carroceria?")
+					Leia (resposta)
+					
+					Se (resposta == sim) entao
+						Escreval ("Então, o transporte escolhido foi o CAMINHÃO")
+					senao
+						Escreval ("Então, o transporte escolhidoi foi o ÔNIBUS")
+					FimSe
+				senao
+					Escreval ("Então, o transporte escolhido foi o CARRO")
+				FimSe
+			FimSe
+		FimSe
+	FimSe
+
+senao
+
+resposta <- null
+Escreval ("É aéreo?")
+Leia (resposta)
+
+Se (resposta == sim) entao
+	resposta <- null
+	Escreval ("Precisa pular?")
+	Leia (resposta)
+
+	Se (resposta == sim) entao
+		Escreval ("Então, o transporte escolhido foi SA DELTA/PARAQUEDAS")
+	senao
+		resposta <- null
+		Escreval ("É devagar?")
+		Leia (resposta)
+
+		Se (resposta == sim) entao
+			Escreval ("Então, o transporte escolhido foi o BALÃO")
+		senao
+			resposta <- null
+			Escreval ("Possui asas fixas?")
+			Leia (resposta)
+
+			Se (resposta == sim) entao
+				Escreval ("Então, o transporte escolhido foi o AVIÃO")
+			senao
+				Escreval ("Então, o transporte escolhido foi o HELICÓPTERO")
+			FimSe
+		FimSe
+	FimSe
+senao
+
+resposta <- null
+Escreval ("É coberto d'água?")
+Leia (resposta)
+
+Se (resposta == sim) entao
+	escreval ("Então, o transporte escolhido foi o SUBMARINO")
+senao
+
+resposta <- null
+Escreval ("Possui vela?")
+Leia (resposta)
+
+Se (resposta == sim) entao
+	Escreval ("Então, o transporte escolhido foi o BARCO")
+senao
+
+resposta <- null
+Escreval ("É alto?")
+Leia (resposta)
+
+Se (resposta == sim) entao
+	Escreval ("Então, o transporte escolhido foi o NAVIO")
+senao
+	Escreval ("Então, o transporte escolhido foi a LANCHA")
+FimSe
+FimSe
+FimSe 			
+FimSe
+FimSe
