@@ -1,0 +1,103 @@
+var
+alunoA,alunoB,alunoC,alunoD,melhorAlunoA,melhorAlunoB,melhorAlunoC,melhorAlunoD,alunoMelhor: caractere
+notaA,notaB,notaC,notaD,melhorNotaA,melhorNotaB,melhorNotaC,melhorNotaD,notaMaior: real
+aprovadosA,aprovadosB,aprovadosC,aprovadosD,aprovadosTotal,aprovadosTotalA,aprovadosTotalB,aprovadosTotalC,aprovadosTotalD,i: inteiro
+
+i <- 0
+melhorNotaA <- 0
+melhorNotaB <- 0
+melhorNotaC <- 0
+melhorNotaD <- 0
+notaMaior <- 0
+
+enquanto i < 25 faca
+	Escreval ("Qual seu nome?")
+	Leia (AlunoA)
+	Escreval ("Qual foi sua nota?")
+	Leia (notaA)
+	
+	Se (notaA >= 7) entao
+		aprovadosTotal <- aprovadosTotal + 1
+		aprovadosTotalA <- aprovadosTotalA + 1
+	FimSe
+
+	Se (notaA > melhorNotaA) entao
+		melhorNotaA <- notaA
+		melhorAlunoA <- alunoA	
+	FimSe
+	Se (notaA > notaMaior) entao
+		notaMaior <- notaA
+		alunoMelhor <- alunoA
+	FimSe
+FimEnquanto
+
+enquanto i < 25 faca
+	Escreval ("Qual seu nome?")
+	Leia (AlunoB)
+	Escreval ("Qual foi sua nota?")
+	Leia (notaB)
+	
+	Se (notaB >= 7) entao
+		aprovadosTotal <- aprovadosTotal + 1
+		aprovadosTotalB <- aprovadosTotalB + 1
+	FimSe
+
+	Se (notaB > melhorNotaB) entao
+		melhorNotaB <- notaB
+		melhorAlunoB <- alunoB	
+	FimSe
+	Se (notaB > notaMaior) entao
+		notaMaior <- notaB
+		alunoMelhor <- alunoB
+	FimSe
+FimEnquanto
+
+enquanto i < 25 faca
+	Escreval ("Qual seu nome?")
+	Leia (AlunoC)
+	Escreval ("Qual foi sua nota?")
+	Leia (notaC)
+	
+	Se (notaC >= 7) entao
+		aprovadosTotal <- aprovadosTotal + 1
+		aprovadosTotalC <- aprovadosTotalC + 1
+	FimSe
+
+	Se (notaC > melhorNotaC) entao
+		melhorNotaC <- notaC
+		melhorAlunoC <- alunoC	
+	FimSe
+	Se (notaC > notaMaior) entao
+		notaMaior <- notaC
+		alunoMelhor <- alunoC
+	FimSe
+FimEnquanto
+
+enquanto i < 25 faca
+	Escreval ("Qual seu nome?")
+	Leia (AlunoD)
+	Escreval ("Qual foi sua nota?")
+	Leia (notaD)
+	
+	Se (notaD >= 7) entao
+		aprovadosTotal <- aprovadosTotal + 1
+		aprovadosTotalD <- aprovadosTotalD + 1
+	FimSe
+
+	Se (notaA > melhorNotaD) entao
+		melhorNotaD <- notaD
+		melhorAlunoD <- alunoD	
+	FimSe
+	Se (notaD > notaMaior) entao
+		notaMaior <- notaD
+		alunoMelhor <- alunoD
+	FimSe
+FimEnquanto
+
+
+Escreval ("Na turma A foram aprovados",aprovadosTotalA," alunos. O(a) melhor aluno(a) da turma A foi ",melhorAlunoA," com a nota ",melhorNotaA)
+Escreval ("Na turma B foram aprovados",aprovadosTotalB," alunos. O(a) melhor aluno(a) da turma B foi ",melhorAlunoB," com a nota ",melhorNotaB)
+Escreval ("Na turma C foram aprovados",aprovadosTotalC," alunos. O(a) melhor aluno(a) da turma C foi ",melhorAlunoC," com a nota ",melhorNotaC)
+Escreval ("Na turma D foram aprovados",aprovadosTotalD," alunos. O(a) melhor aluno(a) da turma D foi ",melhorAlunoD," com a nota ",melhorNotaD)
+
+Escreval ("O total de aprovados em todas as turmas foram de",aprovadosTotal," alunos e o que teve a maior nota foi ",alunoMelhor," com a nota ",notaMaior)
