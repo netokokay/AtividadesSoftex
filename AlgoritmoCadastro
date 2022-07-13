@@ -1,0 +1,27 @@
+var nome,endereco,cidade,nomeDoPai,nomeDaMae: caractere
+var cpf,rg,idade: inteiro
+var peso,rendaBruta: real
+
+Escreval ("Qual seu nome?")
+Leia (nome)
+Escreval ("Qual seu endereço?")
+Leia (endereco)
+Escreval ("Qual o nome da cidade onde você mora?")
+Leia (cidade)
+Escreval ("Digite o número do seu CPF (apenas números):")
+Leia (cpf)
+Escreval ("Digite o número do seu RG(apenas números):")
+Leia (rg)
+Escreval ("Qual a sua idade?")
+Leia (idade)
+Escreval ("Qual o nome do seu pai?")
+Leia (nomeDoPai)
+Escreval ("Qual o nome da sua mãe?")
+Leia (nomeDaMae)
+Escreval ("Qual o seu peso atual?")
+Leia (peso)
+Escreval ("Qual a sua renda bruta?")
+Leia (rendaBruta)
+
+Escreval ("O cliente cadastrado foi ",nome," que reside no endereço ",endereco," da",cidade," portador do CPF",cpf," e do RG ",rg,",
+sua idade atual é ",idade," filho de ",nomeDoPai," e ",nomeDaMae," pesando ",peso," recebendo uma renda bruta de ",rendaBruta)
