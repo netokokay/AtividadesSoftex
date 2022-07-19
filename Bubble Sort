@@ -1,0 +1,40 @@
+Algoritmo "Bubble sort"
+//SOFTEX ATIVIDADE DE JOSÉ NETO DE AMORIM KOKAY
+Var
+// Seção de Declarações das variáveis
+vec: vetor[1..10] de inteiro
+i,x,troca: inteiro
+
+Inicio
+Para i de 1 ate 10 faca
+Escreval ("Digite um número: ")
+Leia(vec[i])
+FimPara
+
+i <- 0
+Escreval ("Vetor desordenado: ")
+Para i de 1 ate 10 faca
+Escreva (vec[i])
+FimPara
+
+x <- 0
+i <- 0
+Para x de 1 ate 9 faca
+Para i de x+1 ate 10 faca
+Se (vec[x] > vec[i]) entao
+troca <- vec[i]
+vec[i] <- vec[x]
+vec[x] <- troca
+
+FimSe
+FimPara
+FimPara
+
+i <- 0
+Escreval ("")
+Escreval ("Vetor ordenado: ")
+Para i de 1 ate 10 faca
+Escreva (vec[i])
+FimPara
+
+Fimalgoritmo
