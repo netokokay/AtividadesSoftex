@@ -1,0 +1,14 @@
+print("Código desenvolvido em Python através do Colaboratory do Google pelo aluno: José Neto de Amorim Kokay")
+print("============================================================================^^^^^^^^^^^^^^^^^^^^^^^^^")
+nomeDoAluno = input("Digite o nome do aluno: ")
+nota1 = float(input('Digite a primeira nota do aluno: '))
+nota2 = float(input('Digite a segunda nota do aluno: '))
+faltas = int(input('Digite a quantidade de faltas do aluno: '))
+media = (nota1+nota2)/2
+
+if faltas > 3:
+  print(nomeDoAluno, "foi reprovado por falta!")
+elif media >= 7:
+  print(nomeDoAluno,"foi aprovado com a média:", media)
+elif media < 7: 
+  print(nomeDoAluno, "infelizmente foi reprovado por média com a média final:", media)
